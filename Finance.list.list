@@ -1,0 +1,26 @@
+# ==========================================
+# 我的个人加密货币与境外金融分流规则集
+# ==========================================
+
+# > Wise (跨境支付/多币种账户)
+DOMAIN-SUFFIX, wise.com
+DOMAIN-SUFFIX, transferwise.com
+
+# > N26 (德国数字银行)
+DOMAIN-SUFFIX, n26.com
+
+# > iFAST 集团 (英国数字银行 & 平台投资)
+DOMAIN-KEYWORD, ifast
+DOMAIN-SUFFIX, ifastgb.com
+DOMAIN-SUFFIX, ifastgp.com
+DOMAIN-SUFFIX, ifastfinancial.com
+
+# > OKX (欧易交易所)
+DOMAIN-KEYWORD, okx
+DOMAIN-SUFFIX, okx.com
+DOMAIN-SUFFIX, okex.com
+
+# > Kraken (老牌合规交易所)
+DOMAIN-KEYWORD, kraken
+DOMAIN-SUFFIX, kraken.com
+DOMAIN-SUFFIX, cryptowat.ch
