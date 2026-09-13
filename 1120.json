@@ -1,0 +1,50 @@
+{
+  "_comment": "自用金融与加密货币平台分流规则集 (适用于 Karing / sing-box)",
+  "version": 1,
+  "rules": [
+    {
+      "_comment_wise": "Wise 汇款服务",
+      "domain_suffix": [
+        "wise.com",
+        "transferwise.com"
+      ]
+    },
+    {
+      "_comment_n26": "N26 德国数字银行",
+      "domain_suffix": [
+        "n26.com"
+      ]
+    },
+    {
+      "_comment_ifast": "iFAST Global Bank 奕丰全球银行",
+      "domain_suffix": [
+        "ifastgb.com",
+        "ifastgp.com",
+        "ifastfinancial.com"
+      ],
+      "domain_keyword": [
+        "ifast"
+      ]
+    },
+    {
+      "_comment_okx": "OKX 欧易交易所",
+      "domain_suffix": [
+        "okx.com",
+        "okex.com"
+      ],
+      "domain_keyword": [
+        "okx"
+      ]
+    },
+    {
+      "_comment_kraken": "Kraken 交易所及相关衍生服务",
+      "domain_suffix": [
+        "kraken.com",
+        "cryptowat.ch"
+      ],
+      "domain_keyword": [
+        "kraken"
+      ]
+    }
+  ]
+}
